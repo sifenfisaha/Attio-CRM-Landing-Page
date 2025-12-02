@@ -1,7 +1,11 @@
+import NavBar from "@/sections/NavBar";
+import Notification from "@/sections/Notification";
+
 export default function Home() {
   return (
     <>
-      <div>Hello world</div>
+      <Notification />
+      <NavBar />
     </>
   );
 }
