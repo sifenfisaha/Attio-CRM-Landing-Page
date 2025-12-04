@@ -2,7 +2,10 @@ import { HtmlHTMLAttributes } from "react";
 import { twMerge } from "tailwind-merge";
 
 export default function Container(
-  props: { classname?: string } & HtmlHTMLAttributes<HTMLDivElement>,
+  props: {
+    dark: boolean;
+    classname?: string;
+  } & HtmlHTMLAttributes<HTMLDivElement>,
 ) {
   const { children, className, classname } = props;
   return (
