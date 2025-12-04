@@ -4,7 +4,7 @@ import { ButtonHTMLAttributes } from "react";
 import { cva } from "class-variance-authority";
 
 const buttonVariants = cva(
-  "rounded-xl border border-neutral-200 focus:outline-none focus:ring-2 cursor-pointer focus:ring-offset-2 transition",
+  "rounded-xl border text-nowrap border-neutral-200 focus:outline-none focus:ring-2 cursor-pointer focus:ring-offset-2 transition",
   {
     variants: {
       variant: {

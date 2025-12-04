@@ -1,3 +1,4 @@
+import CTA from "@/sections/CTA";
 import Hero from "@/sections/Hero";
 import LogoTwicker from "@/sections/LogoTwicker";
 import NavBar from "@/sections/NavBar";
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <LogoTwicker />
       <ValuePropsition />
+      <CTA />
     </>
   );
 }

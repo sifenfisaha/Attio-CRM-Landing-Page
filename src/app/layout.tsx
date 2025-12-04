@@ -16,7 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable}`}>{children}</body>
+      <body
+        className={`${inter.variable} selection:text-white selection:bg-black`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
