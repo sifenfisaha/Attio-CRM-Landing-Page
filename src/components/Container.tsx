@@ -3,7 +3,6 @@ import { twMerge } from "tailwind-merge";
 
 export default function Container(
   props: {
-    dark: boolean;
     classname?: string;
   } & HtmlHTMLAttributes<HTMLDivElement>,
 ) {
