@@ -65,7 +65,6 @@ export default function ValuePropositionTwo() {
         {features.map((features) => {
           return (
             <Container
-              dark
               classname="bg-neutral-900 border-neutral-600 border"
               className="bg-neutral-900 border-neutral-800 "
               key={features.id}
