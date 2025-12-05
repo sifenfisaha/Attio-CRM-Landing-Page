@@ -1,4 +1,6 @@
 import CTA from "@/sections/CTA";
+import CTA2 from "@/sections/CTA2";
+import Footer from "@/sections/Fotter";
 import Hero from "@/sections/Hero";
 import LogoTwicker from "@/sections/LogoTwicker";
 import NavBar from "@/sections/NavBar";
@@ -18,6 +20,8 @@ export default function Home() {
       <CTA />
       <ValuePropositionTwo />
       <Testimonials />
+      <CTA2 />
+      <Footer />
     </>
   );
 }
