@@ -340,7 +340,7 @@ export default function Testimonials() {
           <TestimonialColumn testimaoneals={testimonialsA} />
         </div>
 
-        <div className="h-[400px] hidden md:inline-block lg:h-[500px] overflow-hidden [mask-const animation = useRef<AnimationPlaybackControlsWithThen>(null);image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">
+        <div className="h-[400px] hidden md:inline-block lg:h-[500px] overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">
           <TestimonialColumn testimaoneals={testimonialsB} reverse />
         </div>
 

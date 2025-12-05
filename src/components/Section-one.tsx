@@ -65,11 +65,13 @@ export default function SectionOne() {
             src={DashBoard1}
             alt="Dashboard Image"
             className="mt-12 w-full z-10"
+            priority
           />
           <Image
             src={DashBoard2}
             alt="DashBoard2"
             className="z-20 absolute bottom-0 left-1/2 transform -translate-x-1/2"
+            priority
           />
         </div>
       </Container>
