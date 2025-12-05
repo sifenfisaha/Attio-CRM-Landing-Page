@@ -3,6 +3,7 @@ import Hero from "@/sections/Hero";
 import LogoTwicker from "@/sections/LogoTwicker";
 import NavBar from "@/sections/NavBar";
 import Notification from "@/sections/Notification";
+import Testimonials from "@/sections/Testimonials";
 import ValuePropsition from "@/sections/ValueProposition";
 import ValuePropositionTwo from "@/sections/ValuePropositionTwo";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <ValuePropsition />
       <CTA />
       <ValuePropositionTwo />
+      <Testimonials />
     </>
   );
 }
