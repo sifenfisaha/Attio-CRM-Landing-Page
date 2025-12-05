@@ -40,6 +40,7 @@ export default function Hero() {
             src={ScreenShot}
             alt="screen shot of the dashboard"
             className="shadow-2xl rounded-2xl"
+            priority
           />
         </div>
       </div>

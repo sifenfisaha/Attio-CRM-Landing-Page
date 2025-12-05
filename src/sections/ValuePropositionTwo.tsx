@@ -72,6 +72,7 @@ export default function ValuePropositionTwo() {
               <div className="p-8 flex flex-col items-center text-center">
                 <Image
                   src={features.src}
+                  priority
                   alt={features.title}
                   className="mb-8"
                 />

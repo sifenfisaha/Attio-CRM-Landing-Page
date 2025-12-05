@@ -48,6 +48,7 @@ export default function LogoTwicker() {
                   src={logo.component}
                   alt={logo.name}
                   key={index}
+                  priority
                 />
               ))}
             </motion.div>

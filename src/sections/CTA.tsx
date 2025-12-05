@@ -64,6 +64,7 @@ export default function CTA() {
                     src={logo.src}
                     alt={logo.alt}
                     className="my-6"
+                    priority
                   />
                 );
               })}

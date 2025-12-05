@@ -40,7 +40,7 @@ export default function SectionTwo() {
 "
             />
             <div>
-              <Image src={Img} alt="Graphic" />
+              <Image src={Img} alt="Graphic" priority />
             </div>
           </div>
         </Container>
@@ -53,14 +53,14 @@ export default function SectionTwo() {
               structure."
             />
             <div className="bg-[url('/Pattern.svg')] flex items-center justify-center p-12 bg-cover bg-center">
-              <Image src={Group} alt="Group" />
+              <Image src={Group} alt="Group" priority />
             </div>
           </div>
         </Container>
         <div className="flex flex-col gap-8 col-span-1 lg:col-span-3 h-full">
           <Container className="flex-1">
             <div className="bg-[url('/Pattern.svg')] flex items-center justify-center p-12 bg-cover bg-center">
-              <Image src={Group2} alt="Group2" />
+              <Image src={Group2} alt="Group2" priority />
             </div>
           </Container>
           <Container className="flex-1 px-6 py-12">
@@ -70,7 +70,7 @@ export default function SectionTwo() {
                   className={`w-15 flex items-center justify-center h-15 rounded-xl border-2 border-neutral-200 ${index === 4 && "hidden"}`}
                   key={item.id}
                 >
-                  <Image src={item.icon} alt={`icon ${item.id}`} />
+                  <Image src={item.icon} alt={`icon ${item.id}`} priority />
                 </div>
               ))}
             </div>
