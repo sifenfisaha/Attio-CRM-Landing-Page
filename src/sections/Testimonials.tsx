@@ -335,17 +335,19 @@ export default function Testimonials() {
         second="Builders."
         subtitle="Attio is the customer relationship management tool for everyone who values collaboration."
       />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-        <div className="h-[400px] lg:h-[500px] overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">
-          <TestimonialColumn testimaoneals={testimonialsA} />
-        </div>
+      <div className="flex justify-center items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-8 mt-12">
+          <div className="h-[400px] lg:h-[500px] overflow-hidden self-center [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">
+            <TestimonialColumn testimaoneals={testimonialsA} />
+          </div>
 
-        <div className="h-[400px] hidden md:inline-block lg:h-[500px] overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">
-          <TestimonialColumn testimaoneals={testimonialsB} reverse />
-        </div>
+          <div className="h-[400px] hidden md:inline-block lg:h-[500px] self-center overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">
+            <TestimonialColumn testimaoneals={testimonialsB} reverse />
+          </div>
 
-        <div className="h-[400px] lg:h-[500px] overflow-hidden hidden lg:inline-block [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">
-          <TestimonialColumn testimaoneals={testimonialsC} />
+          <div className="h-[400px] lg:h-[500px] overflow-hidden hidden lg:inline-block self-center [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">
+            <TestimonialColumn testimaoneals={testimonialsC} />
+          </div>
         </div>
       </div>
     </section>
