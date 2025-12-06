@@ -47,8 +47,8 @@ export default function SectionOne() {
           the other way around."
       />
 
-      <Container className="p-12 pb-0">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 grid-cols-1 gap-8 mb-20">
+      <Container className="py-12 pb-0">
+        <div className="grid px-12 md:grid-cols-2 lg:grid-cols-4 grid-cols-1 gap-8 mb-20">
           {section_one.map((item, index) => (
             <div key={index} className="">
               <div className="flex items-center gap-4 mb-3">
@@ -59,18 +59,18 @@ export default function SectionOne() {
             </div>
           ))}
         </div>
-        <div className="relative">
-          <div className="absolute inset-0 z-12 bg-black/20 rounded-xl" />
+        <div className="relative overflow-hidden">
+          <div className="absolute inset-0 z-12 bg-black/20 md:block hidden rounded-xl" />
           <Image
             src={DashBoard1}
             alt="Dashboard Image"
-            className="mt-12 w-full z-10"
+            className="md:mt-12 w-full z-10 rounded-xl"
             priority
           />
           <Image
             src={DashBoard2}
             alt="DashBoard2"
-            className="z-20 absolute bottom-0 left-1/2 transform -translate-x-1/2"
+            className="z-20 hidden md:block absolute bottom-0 left-1/2 transform -translate-x-1/2"
             priority
           />
         </div>

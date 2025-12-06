@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="py-20 px-6">
+    <section className="py-20 px-4">
       <div className="rounded-full bg-neutral-100 pr-4 mx-auto flex gap-4 items-center justify-center w-fit">
         <button className="bg-black py-0.5 px-2 text-white rounded-full">
           New
@@ -35,11 +35,11 @@ export default function Hero() {
         </div>
       </div>
       <div className="mt-16 mx-auto flex justify-center items-center bg-[url('/Background.svg')] w-full bg-no-repeat bg-center bg-cover">
-        <div className="max-w-7xl px-6 py-12  backdrop-blur-2xl bg-white">
+        <div className="max-w-7xl md:px-6 py-12  md:backdrop-blur-2xl md:bg-white">
           <Image
             src={ScreenShot}
             alt="screen shot of the dashboard"
-            className="shadow-2xl rounded-2xl"
+            className="shadow-2xl rounded-sm md:rounded-2xl"
             priority
           />
         </div>
