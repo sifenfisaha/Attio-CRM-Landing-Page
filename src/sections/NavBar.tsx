@@ -19,7 +19,7 @@ export default function NavBar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <section className="flex-col my-4 flex items-center justify-between relative">
+    <section className="flex-col my-4 flex items-center justify-between relative px-6">
       <AnimatePresence>
         {open && (
           <motion.div
@@ -63,7 +63,7 @@ export default function NavBar() {
 
       <Notification className="order-2 md:order-1 w-full md:mx-6" />
 
-      <div className="px-6 w-full my-4 flex items-center order-1 md:order-2 justify-between z-50 relative">
+      <div className=" w-full my-4 flex items-center order-1 md:order-2 justify-between z-50 relative">
         <div className="flex items-center justify-center gap-16">
           <Image src={Logo} className="z-10" alt="Logo" priority />
 

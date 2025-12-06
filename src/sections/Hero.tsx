@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="py-20 px-4">
+    <section className="md:py-20 py-10 px-4">
       <div className="rounded-full bg-neutral-100 pr-4 mx-auto flex gap-4 items-center justify-center w-fit">
         <button className="bg-black py-0.5 px-2 text-white rounded-full">
           New
@@ -18,7 +18,7 @@ export default function Hero() {
         </p>
       </div>
       <div className="flex flex-col items-center justify-center text-center mt-8 mx-auto max-w-5xl">
-        <h1 className="md:text-6xl lg:text-8xl text-3xl font-bold">
+        <h1 className="md:text-6xl lg:text-8xl text-5xl font-bold">
           Customer relationships magic.
         </h1>
         <p className="md:text-2xl text-xl mt-8 text-neutral-800 max-w-2xl">
