@@ -19,7 +19,7 @@ export default function Hero() {
       </div>
       <div className="flex flex-col items-center justify-center text-center mt-8 mx-auto max-w-5xl">
         <h1 className="md:text-6xl lg:text-8xl text-3xl font-bold">
-          Cusomer relationships magic.
+          Customer relationships magic.
         </h1>
         <p className="md:text-2xl text-xl mt-8 text-neutral-800 max-w-2xl">
           Powerful, flexible and data-driven, Attio makes it easy to build the
