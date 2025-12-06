@@ -62,7 +62,7 @@ export default function SectionThree() {
             <Image
               src={Image4}
               alt="Part4"
-              className="border-3 border-neutral-100 shadow rounded-xl mr-4"
+              className="border-3 border-neutral-100 shadow rounded-xl md:mr-4"
             />
           </div>
         </Container>

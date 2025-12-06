@@ -2,6 +2,7 @@
 import { X } from "lucide-react";
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import { twMerge } from "tailwind-merge";
 
 const fadeInOut = {
   initial: { opacity: 0, y: -20 },
@@ -10,8 +11,9 @@ const fadeInOut = {
   transition: { duration: 0.3 },
 };
 
-export default function Notification() {
+export default function Notification(props: { className?: string }) {
   const [isVisible, setIsVisible] = useState(true);
+  const { className } = props;
 
   const handleClose = () => {
     setIsVisible(false);
@@ -26,7 +28,10 @@ export default function Notification() {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="my-1 flex items-center justify-center relative mx-6 px-6 py-4 bg-black rounded-2xl text-white"
+            className={twMerge(
+              "my-1 flex items-center justify-center relative mx-6 px-6 py-4 bg-black rounded-2xl text-white",
+              className,
+            )}
           >
             <p className="text-center text-sm font-semibold">
               We&apos; ve raised a $23.5m Series A led by Redpoint Ventures!{" "}

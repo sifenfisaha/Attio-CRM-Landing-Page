@@ -26,7 +26,7 @@ const logos = [
 export default function LogoTwicker() {
   return (
     <section className="pb-20">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto ">
         <div className="w-[90%] max-w-8xl overflow-hidden mx-auto  bg-white p-6">
           <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
             <motion.div
@@ -44,7 +44,7 @@ export default function LogoTwicker() {
             >
               {[...logos, ...logos].map((logo, index) => (
                 <Image
-                  className="pr-12 md:h-10 w-auto"
+                  className="pr-12 h-6 md:h-10 w-auto"
                   src={logo.component}
                   alt={logo.name}
                   key={index}
